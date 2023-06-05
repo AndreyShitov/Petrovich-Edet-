@@ -1,0 +1,43 @@
+.contacts{
+    
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color:rgb(246 255 229);
+}
+.contacts_container{
+    width: 100%;
+    max-width: 1062px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contacts_title{
+    color: orange;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: start;
+}
+.contacts_info{
+    color: #7cdbff;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.contacts_phone_number{
+    color: #7cdbff;
+    font-size: 50px;
+    font-weight: 800;
+   
+}
+.contacts_name{
+    color: #7cdbff;
+    font-size: 50px;
+    font-weight: 800;
+   
+}

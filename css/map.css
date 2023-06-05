@@ -1,0 +1,26 @@
+.map{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.map_container{
+    max-width: 1062px;
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.map_title{
+    color: orange;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: start;
+}

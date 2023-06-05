@@ -1,0 +1,92 @@
+.services{
+    width: 100%;
+    height: 850px;
+    margin: 0 auto;
+    background-color:rgb(255, 245, 230);
+    /* background: url(/pics/gazelle_nature.jpg) no-repeat center;
+    background-size: cover; */
+}
+
+.services_container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    max-width: 1060px;
+    /* background-color: pink; */
+    height: 800px;
+}
+.services_title{
+    color: orange;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: start;
+    /* max-width: 1222px; */
+  
+
+}
+.services_cards_container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1222px;
+    /* height: 100%; */
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 50px;
+}
+.services_card {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+.services_card:hover{
+    background-color:beige;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: scale(1.1);
+    transition: 0.3s all;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+.services_card_header{
+    color: orange;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.services_card_pic{
+    /* width: 50%;
+    height: 50%; */
+}
+.shifting_pic {
+    /* background: url(/pics/gaz-33023-bortovoy-foto-1.png ) no-repeat center;
+    background-size: cover; */
+}
+.shifting_png{
+    background: url(/pics/png/free-icon-moving-home-4950831.png) no-repeat center;
+    background-size: cover;
+}
+.services_card_png{
+    width: 200px;
+    height: 200px;
+}
+.cargo_png{
+    background: url(/pics/png/free-icon-van-4634784.png) no-repeat center;
+    background-size: cover;
+}
+.commerce_png{
+    background: url(/pics/png/free-icon-warehouse-7893472.png) no-repeat center;
+    background-size: cover;
+}
+.garden_png{
+    background: url(/pics/png/free-icon-vegetables-498229.png) no-repeat center;
+    background-size: cover;
+}
